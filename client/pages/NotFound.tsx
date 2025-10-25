@@ -13,11 +13,17 @@ const NotFound = () => {
             <AlertCircle className="w-16 h-16 text-red-500 mx-auto" />
           </div>
           <h1 className="text-4xl font-bold text-slate-900 mb-2">404</h1>
-          <p className="text-2xl font-semibold text-slate-700 mb-4">Page Not Found</p>
-          <p className="text-lg text-slate-600 mb-8">
-            Sorry, the page you're looking for doesn't exist. Let's get you back on track.
+          <p className="text-2xl font-semibold text-slate-700 mb-4">
+            Page Not Found
           </p>
-          <Button asChild className="bg-blue-600 hover:bg-blue-700 text-white text-base py-6 px-8 h-auto rounded-lg font-semibold inline-flex items-center gap-2">
+          <p className="text-lg text-slate-600 mb-8">
+            Sorry, the page you're looking for doesn't exist. Let's get you back
+            on track.
+          </p>
+          <Button
+            asChild
+            className="bg-blue-600 hover:bg-blue-700 text-white text-base py-6 px-8 h-auto rounded-lg font-semibold inline-flex items-center gap-2"
+          >
             <a href="/">
               <ArrowLeft className="w-5 h-5" />
               Back to Home

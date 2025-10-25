@@ -27,7 +27,9 @@ export default function Index() {
               Professional Car Maintenance You Can Trust
             </h1>
             <p className="text-lg text-slate-600 mb-8 leading-relaxed">
-              Keep your vehicle running smoothly with our expert maintenance services. From routine oil changes to comprehensive inspections, we've got you covered.
+              Keep your vehicle running smoothly with our expert maintenance
+              services. From routine oil changes to comprehensive inspections,
+              we've got you covered.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button className="bg-blue-600 hover:bg-blue-700 text-white text-base py-6 px-8 h-auto rounded-lg font-semibold flex items-center gap-2">
@@ -59,7 +61,9 @@ export default function Index() {
             <div className="relative bg-gradient-to-br from-blue-100 to-blue-50 rounded-2xl h-96 md:h-full flex items-center justify-center border border-blue-200">
               <div className="text-center">
                 <Wrench className="w-24 h-24 text-blue-600 mx-auto mb-4" />
-                <p className="text-slate-600 font-medium">Expert Car Maintenance</p>
+                <p className="text-slate-600 font-medium">
+                  Expert Car Maintenance
+                </p>
               </div>
             </div>
           </div>
@@ -67,14 +71,18 @@ export default function Index() {
       </section>
 
       {/* Services Section */}
-      <section id="services" className="py-20 md:py-28 px-4 sm:px-6 lg:px-8 bg-white">
+      <section
+        id="services"
+        className="py-20 md:py-28 px-4 sm:px-6 lg:px-8 bg-white"
+      >
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
               Our Services
             </h2>
             <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-              Comprehensive maintenance and repair services for all types of vehicles
+              Comprehensive maintenance and repair services for all types of
+              vehicles
             </p>
           </div>
 
@@ -83,17 +91,20 @@ export default function Index() {
               {
                 icon: Droplets,
                 title: "Oil Changes",
-                description: "Regular oil changes keep your engine healthy and running efficiently",
+                description:
+                  "Regular oil changes keep your engine healthy and running efficiently",
               },
               {
                 icon: Shield,
                 title: "Brake Service",
-                description: "Complete brake inspection and maintenance for your safety",
+                description:
+                  "Complete brake inspection and maintenance for your safety",
               },
               {
                 icon: Zap,
                 title: "Battery Check",
-                description: "Battery testing and replacement to prevent breakdowns",
+                description:
+                  "Battery testing and replacement to prevent breakdowns",
               },
               {
                 icon: Wrench,
@@ -122,7 +133,10 @@ export default function Index() {
       </section>
 
       {/* Why Choose Us Section */}
-      <section id="why-us" className="py-20 md:py-28 px-4 sm:px-6 lg:px-8 bg-slate-50">
+      <section
+        id="why-us"
+        className="py-20 md:py-28 px-4 sm:px-6 lg:px-8 bg-slate-50"
+      >
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
@@ -152,8 +166,7 @@ export default function Index() {
                   {
                     icon: Shield,
                     title: "Transparent Pricing",
-                    description:
-                      "No hidden fees, clear pricing upfront",
+                    description: "No hidden fees, clear pricing upfront",
                   },
                 ].map((item, idx) => {
                   const Icon = item.icon;
@@ -179,7 +192,9 @@ export default function Index() {
             <div className="bg-gradient-to-br from-blue-100 to-blue-50 rounded-2xl h-96 md:h-full flex items-center justify-center border border-blue-200">
               <div className="text-center">
                 <Star className="w-24 h-24 text-blue-600 mx-auto mb-4" />
-                <p className="text-slate-600 font-medium">Trusted by Hundreds</p>
+                <p className="text-slate-600 font-medium">
+                  Trusted by Hundreds
+                </p>
               </div>
             </div>
           </div>
@@ -194,7 +209,8 @@ export default function Index() {
               What Our Customers Say
             </h2>
             <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-              Join hundreds of satisfied customers who trust us with their vehicles
+              Join hundreds of satisfied customers who trust us with their
+              vehicles
             </p>
           </div>
 
@@ -245,13 +261,17 @@ export default function Index() {
       </section>
 
       {/* CTA Section */}
-      <section id="contact" className="py-20 md:py-28 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-blue-600 to-blue-700">
+      <section
+        id="contact"
+        className="py-20 md:py-28 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-blue-600 to-blue-700"
+      >
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
             Ready to Keep Your Car Running Smoothly?
           </h2>
           <p className="text-lg text-blue-100 mb-8 max-w-2xl mx-auto">
-            Schedule your maintenance appointment today and get peace of mind knowing your vehicle is in expert hands.
+            Schedule your maintenance appointment today and get peace of mind
+            knowing your vehicle is in expert hands.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button className="bg-white text-blue-600 hover:bg-slate-50 text-base py-6 px-8 h-auto rounded-lg font-semibold flex items-center justify-center gap-2">

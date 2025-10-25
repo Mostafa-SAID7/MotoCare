@@ -23,16 +23,24 @@ export function Footer() {
             <h3 className="font-bold mb-4">Services</h3>
             <ul className="space-y-2 text-slate-400 text-sm">
               <li>
-                <a href="#" className="hover:text-white transition">Oil Changes</a>
+                <a href="#" className="hover:text-white transition">
+                  Oil Changes
+                </a>
               </li>
               <li>
-                <a href="#" className="hover:text-white transition">Tire Service</a>
+                <a href="#" className="hover:text-white transition">
+                  Tire Service
+                </a>
               </li>
               <li>
-                <a href="#" className="hover:text-white transition">Brake Inspection</a>
+                <a href="#" className="hover:text-white transition">
+                  Brake Inspection
+                </a>
               </li>
               <li>
-                <a href="#" className="hover:text-white transition">General Repairs</a>
+                <a href="#" className="hover:text-white transition">
+                  General Repairs
+                </a>
               </li>
             </ul>
           </div>
@@ -42,16 +50,24 @@ export function Footer() {
             <h3 className="font-bold mb-4">Company</h3>
             <ul className="space-y-2 text-slate-400 text-sm">
               <li>
-                <a href="#" className="hover:text-white transition">About</a>
+                <a href="#" className="hover:text-white transition">
+                  About
+                </a>
               </li>
               <li>
-                <a href="#" className="hover:text-white transition">Blog</a>
+                <a href="#" className="hover:text-white transition">
+                  Blog
+                </a>
               </li>
               <li>
-                <a href="#" className="hover:text-white transition">Careers</a>
+                <a href="#" className="hover:text-white transition">
+                  Careers
+                </a>
               </li>
               <li>
-                <a href="#" className="hover:text-white transition">Privacy</a>
+                <a href="#" className="hover:text-white transition">
+                  Privacy
+                </a>
               </li>
             </ul>
           </div>
@@ -62,15 +78,29 @@ export function Footer() {
             <ul className="space-y-3 text-slate-400 text-sm">
               <li className="flex items-center gap-2">
                 <Phone className="w-4 h-4" />
-                <a href="tel:+1234567890" className="hover:text-white transition">(123) 456-7890</a>
+                <a
+                  href="tel:+1234567890"
+                  className="hover:text-white transition"
+                >
+                  (123) 456-7890
+                </a>
               </li>
               <li className="flex items-center gap-2">
                 <Mail className="w-4 h-4" />
-                <a href="mailto:hello@autocare.com" className="hover:text-white transition">hello@autocare.com</a>
+                <a
+                  href="mailto:hello@autocare.com"
+                  className="hover:text-white transition"
+                >
+                  hello@autocare.com
+                </a>
               </li>
               <li className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 mt-0.5" />
-                <span>123 Main Street<br />Anytown, ST 12345</span>
+                <span>
+                  123 Main Street
+                  <br />
+                  Anytown, ST 12345
+                </span>
               </li>
             </ul>
           </div>
@@ -82,9 +112,15 @@ export function Footer() {
               © 2024 AutoCare. All rights reserved.
             </p>
             <div className="flex gap-6 mt-4 md:mt-0 text-slate-400 text-sm">
-              <a href="#" className="hover:text-white transition">Terms</a>
-              <a href="#" className="hover:text-white transition">Privacy</a>
-              <a href="#" className="hover:text-white transition">Cookies</a>
+              <a href="#" className="hover:text-white transition">
+                Terms
+              </a>
+              <a href="#" className="hover:text-white transition">
+                Privacy
+              </a>
+              <a href="#" className="hover:text-white transition">
+                Cookies
+              </a>
             </div>
           </div>
         </div>

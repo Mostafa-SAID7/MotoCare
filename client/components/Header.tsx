@@ -19,16 +19,27 @@ export function Header() {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-8">
-            <a href="#services" className="text-slate-700 hover:text-blue-600 transition font-medium">
+            <a
+              href="#services"
+              className="text-slate-700 hover:text-blue-600 transition font-medium"
+            >
               Services
             </a>
-            <a href="#why-us" className="text-slate-700 hover:text-blue-600 transition font-medium">
+            <a
+              href="#why-us"
+              className="text-slate-700 hover:text-blue-600 transition font-medium"
+            >
               Why Us
             </a>
-            <a href="#contact" className="text-slate-700 hover:text-blue-600 transition font-medium">
+            <a
+              href="#contact"
+              className="text-slate-700 hover:text-blue-600 transition font-medium"
+            >
               Contact
             </a>
-            <Button className="bg-blue-600 hover:bg-blue-700 text-white">Book Service</Button>
+            <Button className="bg-blue-600 hover:bg-blue-700 text-white">
+              Book Service
+            </Button>
           </nav>
 
           {/* Mobile Menu Button */}
@@ -48,16 +59,27 @@ export function Header() {
         {/* Mobile Navigation */}
         {isOpen && (
           <nav className="md:hidden pb-4 flex flex-col gap-3">
-            <a href="#services" className="text-slate-700 hover:text-blue-600 transition font-medium py-2">
+            <a
+              href="#services"
+              className="text-slate-700 hover:text-blue-600 transition font-medium py-2"
+            >
               Services
             </a>
-            <a href="#why-us" className="text-slate-700 hover:text-blue-600 transition font-medium py-2">
+            <a
+              href="#why-us"
+              className="text-slate-700 hover:text-blue-600 transition font-medium py-2"
+            >
               Why Us
             </a>
-            <a href="#contact" className="text-slate-700 hover:text-blue-600 transition font-medium py-2">
+            <a
+              href="#contact"
+              className="text-slate-700 hover:text-blue-600 transition font-medium py-2"
+            >
               Contact
             </a>
-            <Button className="w-full bg-blue-600 hover:bg-blue-700 text-white">Book Service</Button>
+            <Button className="w-full bg-blue-600 hover:bg-blue-700 text-white">
+              Book Service
+            </Button>
           </nav>
         )}
       </div>
