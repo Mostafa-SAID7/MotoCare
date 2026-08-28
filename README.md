@@ -1,24 +1,47 @@
-# Auto Elegance
+# MOTOcare — Performance Auto Service
 
-clone this https://github.com/samir3said66-prog/motocare-auto when continue to identical like this https://www.behance.net/gallery/254375011/Wordpress-Auto-Service-Design?tracking_source=search_projects|car+service&l=36
+Professional automotive service website for car customization, engine tuning, paint, and mechanical repair.
 
-This project was built with [Lovable](https://lovable.dev).
-
-## Build with Lovable
-
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/958ac946-75d5-46e9-acce-56a01b1bf89d).
-
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
-
-## Development
-
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+## Quick Start
 
 ```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
+npm install
 npm run dev
 ```
+
+## Key Features
+
+- **Responsive Design** - Mobile-first approach with Tailwind CSS
+- **Fast Performance** - Built with Vite for optimal build times
+- **Modern UI** - Shadcn/ui component library
+- **SEO Ready** - Optimized metadata and structured content
+- **TanStack Router** - Type-safe client-side routing
+
+## Root Files
+
+| File | Purpose |
+|------|---------|
+| `package.json` | Dependencies & scripts |
+| `vite.config.ts` | Vite build configuration |
+| `tsconfig.json` | TypeScript configuration |
+| `tailwind.config.ts` | Tailwind CSS customization |
+| `bunfig.toml` | Bun package manager config |
+| `eslint.config.js` | Code linting rules |
+| `.prettierrc` | Code formatting settings |
+| `components.json` | Shadcn/ui component config |
+
+## Directory Structure
+
+- **`src/`** - Source code
+  - `routes/` - Page components
+  - `components/` - Reusable UI components
+  - `assets/` - Images and media
+  - `lib/` - Utility functions
+- **`public/`** - Static files (favicon, robots.txt)
+
+## Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build
+- `npm run lint` - Run ESLint
